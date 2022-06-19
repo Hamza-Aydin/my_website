@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/*NAVBAR*/
+#heading{
+    background-color: #4767A6;
+}
+#navbar{
+    color:#4767A6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.75rem;
+    min-height: 70px;
+}
+#navbar #baba{
+    color: #4767A6;
+    background-color: #fff;
+    padding: 0.55rem;
+    border-radius: 100%;
+}
+#navbar #baba:hover{
+    background-color:#4767A6;
+    color: #fff;
+}
+#navbar ul{
+    
+    list-style-type: none;/*başındaki noktalar kalkmış oldu*/
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 1rem;
+}
+#navbar ul li a:hover{
+    background-color: #ddd;
+    color: #4767A6;
+    border-radius: 10px;
+}
+#navbar h1{
+    color: rgb(1, 1, 119);
+    background-color: #fff;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+#navbar i{
+    margin: 0.25rem;
+}
+
+/*HOME SECTİON*/
+#video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    height: auto;
+    z-index: -100;    
+}
+#home{
+    color: #fff;   
+    background-size: cover;
+    background-image: url(./hb.jpg);
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+#home p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+#home .table{
+    display: block;
+    background-color: #ddd;
+    opacity: 0.9;
+    border-radius: 50px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;/* böylece tam oval yapmış olduk*/
+}
+#home .name h2{
+    margin-bottom: 0.3rem;
+}
+#home .name p{
+    opacity: 0.9;
+    font-style: italic;
+}
+#home input{
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+#home input:focus{
+    outline: 0;
+    border: 2px rgb(0, 140, 255) solid;
+}
+#home#a:hover{
+    color: rgb(1, 1, 119);
+}
+
+/*TRAİNG SECTION*/
+
+#traing{
+    background-image: url(./vv.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(1, 1, 119);
+    padding: 2.7rem;
+    
+}
+
+#traing h4{
+    display: inline;
+}
+#traing .items{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 0.5rem;
+}
+#traing .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.25rem;
+    
+}
+#traing .items .item .font{
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #4767A6;
+    opacity: 1;
+}
+#traing .items .item img{
+    margin-bottom: 0.8rem;
+}
+#traing .items .item span:hover{
+    color: rgb(1, 1, 119);
+    opacity: 0.8;
+    cursor: pointer; 
+}
+#traing .items .item img{
+    border-radius: 4px;
+}
+/*ADVICE SECTION*/
+
+#advice{
+    background-image: url(./vv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom ;
+    color: rgb(1, 1, 119);
+    border-bottom: 2px solid gray;
+    padding: 2rem;
+
+}
+#advice h3{
+    background-color: #4767A6;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color:#fff ;
+    letter-spacing: 1px;
+    width: 60%;
+    
+    margin: 0 auto;
+}
+#advice .website-info a:hover{
+    color: rgb(1, 1, 119) ;
+}
+#advice .website-info a{
+    color: rgb(0, 85, 255);
+}
+#advice .websites{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    
+}
+#advice .websites .title{
+    font-size: 1.25rem;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #4767A6;
+}
+
+#advice .websites .website{
+    width: 16.5%;
+    text-align: center;
+    margin: 0 1rem;
+    margin-bottom: 0.6rem;
+    
+}
+#advice .websites .website .image1 img{
+    background-color: #fff;
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+#advice .websites .website .image img{
+    border-radius: 4px;
+}
+/*contact*/
+#contact{
+    background-image: url(./n.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ddd;
+    color: #4767A6 ;
+    padding: 1rem;
+    border-bottom: #4767A6  2px solid;
+}
+#contact i{
+    color:#4767A6  ;
+}
+
+#contact .contact-form{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact p{
+    display: block;
+    background-color: #4767A6 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+#contact .b{
+    width: 49%;
+    
+    cursor: pointer;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+}
+.author{
+    color: #4767A6 ;
+    opacity: 0.8;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}

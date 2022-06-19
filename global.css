@@ -1,0 +1,89 @@
+/*text*/
+.text-center{
+    text-align: center;
+}/*direkt neye uygulayacaksak class'ını değiştirmemiz yeterli olacak*/
+
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 2rem;
+}
+/*container*/
+.container{/*böylece tam ekran olunca bile ortada kalmasını sağlar*/
+    max-width: 1500px;
+    margin: 0 auto;
+}
+/*colors*/
+.bg-dark-blue{
+    background-color: rgb(1, 1, 119);
+}
+.bg-light-blue{
+    background-color: aqua;
+}
+/*button*/
+.btn{
+    color:#fff ;
+    margin-top: 1.25rem;
+    padding: 0.50rem 1.50rem;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    background-color:#4767A6 ;
+}
+.btn-primary:hover{
+    color:#4767A6;
+    background-color: #fff;
+    border: #4767A6 1px solid;
+}
+.btn-light{
+    background-color: rgb(0, 153, 255);
+}
+.btn-light:hover{
+    color:rgb(0, 153, 255);
+    background-color: #fff;
+    border: rgb(0, 153, 255) 1px solid;
+}
+.btn-block{
+    width:100%;
+    text-align: center;
+}
+.btn-basic{
+    padding:0.75rem;
+    background-color: rgb(240, 240, 240);
+    border-radius:4px;
+    letter-spacing: 1px;
+    color:rgb(0, 85, 255) ;
+}
+.btn-basic-small{
+    
+    padding:0.1rem;
+    background-color: rgb(240, 240, 240);
+    border-radius:4px;
+    letter-spacing: 0.5px;
+    color:rgb(0, 85, 255) ;
+}
+/*forms*/
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: none;/*yeniden boyutlandıma özelliğini kapatmış olduk*/
+    border-radius: 5px;
+}
+.form-control:focus{
+    outline: 0;
+    color: rgb(0, 85, 255);
+    border: 2px rgb(1, 1, 119) solid;
+}
+

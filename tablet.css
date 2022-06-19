@@ -1,0 +1,13 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0.5rem 0;
+}
+#advice .websites{
+    flex-wrap: wrap;
+}
+#advice .websites .website{
+    width: 33%;
+    padding-top:1rem ;
+}

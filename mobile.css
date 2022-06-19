@@ -1,0 +1,28 @@
+#navbar{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;/*taşmalar engellenir*/
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.25rem;
+}
+#navbar ul li a{
+    padding: 1rem;
+}
+#traing .items{
+    flex-direction: column;
+}
+#traing .items .item{
+    width: 100%;
+}
+#advice .websites{
+    flex-wrap: wrap;
+}
+#advice .websites .website{
+    width: 100%;
+    padding-top: 1rem;
+}
